@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/speech"
+    android:layout_width="match_parent"
+    android:padding="40dp"
+    android:orientation="vertical"
+
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/inputvoice"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/speech"
+        android:gravity="center"
+        android:text="@string/BolHalkehalke"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:ignore="InvalidId" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/btnspeak"
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/speech2"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@string/tapTomick"
+        android:textSize="20sp"
+
+        android:textStyle="normal" />
+</LinearLayout>
+</LinearLayout>
